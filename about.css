@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+
+.main{
+    width:100%
+    background: linear-gradient(to top, rgba(92, 222, 231,0.096)100% rgba(55, 55, 0.3) url="C:\Users\Daniel Orhin\Desktop\project\New folder\PENTECOST.jpeg");
+    background-position: center;
+    background-size:cover;
+    height: 109vh;
+  }
+  p{text-decoration-color: purple;}
+}div[class]{
+    color:rgb(101, 93, 241);
+    width: 20%;
+    height: 50px;
+    color: black;
+    padding: 10px;
+    background-position: center;
+    background-size: cover;
+
+}
+#div1{
+	background-color:aqua;
+	width: 150%;
+	height: 30px;
+        background-attachment: scroll;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .button:hover {
+    background-color: #0056b3;
+    /* Styles for when the button is hovered over */
+  }
+  
+  
+  .button:active {
+    background-color: #1a83ed;
+    /* Styles for when the button is clicked */
+  }
+  /*

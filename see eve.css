@@ -1,0 +1,20 @@
+@import url('C:\Users\Daniel Orhin\Desktop\project\New folder\eve fold\aps eve 6.jpg/css?family=Poppins:100,200,300,400,500,600,700')
+#{
+    margin: 0;
+    padding: 0;
+}
+body{
+    backgroung: #33333:
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.cover{
+    width: 400px;
+    height: 400px;
+    baackground: #000;
+    margin-top: 50px;
+
+
+}

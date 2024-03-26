@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(92, 222, 231, 0.096)100%,rgba(55, 55, 55, 0.5)100%), url(PENTECOST.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+color: rgb(128, 0, 255);
+font-size: 35px;
+font-family: Arial;
+padding-left: 20px;
+float: left;
+padding-top: 10px;
+
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.h3{
+    color: rgb(11, 172, 121);
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 17px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(34, 35, 33);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(98, 0, 255);
+}
+
+.search{
+    width:320px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch
+{
+    font-family: 'Calibri';
+    width: 200px;
+    height: 40px;
+    background: 0px;
+    border: 1px solid rgb(76, 8, 234);
+      color: rgb(101, 23, 236);
+      margin-top: 13px;
+      border-right: none;
+      font-size: 16px;
+      float: left;
+      padding: 10px;
+      border-bottom: 5px;
+      border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px;
+
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background:  aqua;
+    border: 2px solid rgb(123, 231, 239);
+    margin-top: 13px;
+    color: black;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline:none ;
+}
+.content{
+     width: 1200px;
+     height: auto;
+     margin: auto;
+     color: White(16, 1, 1);
+     position: relative;
+}
+.content.par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family:'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: aqua;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+.content .cn a{
+text-decoration: none;
+color: black;
+transition: .3s ease;
+}
+.cn:hover{
+    background-color: White(79, 87, 87);
+}
+.content span{
+    color: rgb(196, 163, 242);
+    font: 60px;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(163, 230, 232, 0.8)50%,rgba(223, 217, 232, 0.8)50%);
+    position: absolute;
+    top:-20px;
+    left:870px;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+.form h2{
+
+    width: 220px;
+    font-family: Arial;
+    text-align: center;
+    color: rgb(4, 7, 7);
+    font-size: 22px;
+    background-color: rgb(75, 71, 74);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 7px;
+
+}
+.form input{
+   width: 240px;
+   height: 35px;
+   background: transparent;
+   border-bottom: 1px solid rgb(119, 0, 255);
+   border-top:none;
+   border-right: none;
+   color: rgb(8, 1, 1);
+   font-size: 15px;
+   margin-top: 30px;
+   font-family: sans-serif;
+
+}
+.form input:focus{
+outline: none;
+}
+::placeholder{
+    color: rgb(6, 13, 14);
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: aqua;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: whitesmoke;
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+    background: rgb(12, 43, 243);
+    color: rgb(111, 0, 255);
+}
+
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: aqua;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons ion-icon{
+    color: rgb(31, 1, 1);
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover{
+    color: rgb(113, 14, 235);
+}
+.footer {
+    background: linear-gradient(rgba(102, 168, 209, 0.9), rgba(160, 13, 234, 0.9)), url(C:\Users\Daniel Orhin\Desktop\project\WhatsApp Image 2022-03-09 at 09.41.24.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
